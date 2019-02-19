@@ -1,0 +1,22 @@
+import time
+from selenium import webdriver
+driver = webdriver.Firefox(executable_path="../Exercise/drivers/geckodriver.exe")
+driver.maximize_window()
+#driver.set_page_load_timeout(20)
+driver.get("https://bo.upstox.com")
+driver.get('http://tg.meeseva.gov.in/')
+
+time.sleep(3)
+driver.refresh()
+print(driver.title)
+print(driver.current_url)
+driver.find_element_by_partial_link_text("Unlock").click()
+driver.get("https://bo.upstox.com")
+#driver.find_element_by_name("txtUserName").send_keys("284346")
+#driver.find_element_by_name("txtPassword").send_keys("satee@143")
+#driver.find_element_by_xpath('//*[@id="txtUserName"]').send_keys('284346')
+driver.find_element_by_tag_name("input").click()
+time.sleep(30)
+driver.close()
+driver.quit()
+print('Test Completed')
