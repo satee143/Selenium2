@@ -1,0 +1,22 @@
+{
+  "acbd68911212360173e2c1b1da4a595d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7109b6785f885757",
+      "reportUrl" : "http://localhost:9292/job/python%20selenium/9/allure/#testresult/7109b6785f885757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550766395884,
+        "stop" : 1550766413676,
+        "duration" : 17792
+      }
+    } ]
+  }
+}

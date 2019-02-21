@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_createaccount",
+    "children" : [ {
+      "name" : "Test_user_creation",
+      "children" : [ {
+        "name" : "test_creation",
+        "uid" : "7109b6785f885757",
+        "parentUid" : "9bd10b7a2f395bf270242c04b45b001f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550766395884,
+          "stop" : 1550766413676,
+          "duration" : 17792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9bd10b7a2f395bf270242c04b45b001f"
+    } ],
+    "uid" : "ebaaa26aab3cf76048b19057cdf66700"
+  } ]
+}

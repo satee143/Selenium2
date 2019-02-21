@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Amma",
+    "children" : [ {
+      "name" : "1680-MainThread",
+      "children" : [ {
+        "name" : "test_creation",
+        "uid" : "7109b6785f885757",
+        "parentUid" : "94ac603dfab6063cfb914e2509e03e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550766395884,
+          "stop" : 1550766413676,
+          "duration" : 17792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94ac603dfab6063cfb914e2509e03e27"
+    } ],
+    "uid" : "e1ae22944504bcaae1201e6d24d27964"
+  } ]
+}

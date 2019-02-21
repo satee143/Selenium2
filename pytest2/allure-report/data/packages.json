@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_createaccount",
+    "children" : [ {
+      "name" : "test_creation",
+      "uid" : "7109b6785f885757",
+      "parentUid" : "a93c7d28df17d162086a58fec906c738",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550766395884,
+        "stop" : 1550766413676,
+        "duration" : 17792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a93c7d28df17d162086a58fec906c738"
+  } ]
+}
