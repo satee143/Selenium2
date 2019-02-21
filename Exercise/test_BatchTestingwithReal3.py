@@ -23,7 +23,7 @@ class TestCase():
         assert 'https://www.google.com/' == self.driver.current_url
     
 
-    def test_VerifyYahooTitle(self,test_setUp):
-        self.driver.get('https://in.yahoo.com')
+    #def test_VerifyYahooTitle(self,test_setUp):
+        #self.driver.get('https://in.yahoo.com')
         #self.assertEqual('Yahoo',self.driver.title)
     
