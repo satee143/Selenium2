@@ -8,7 +8,7 @@ import pytest
 class TestCase():
     @pytest.fixture
     def test_setUp(self):
-        self.driver=webdriver.Chrome(executable_path='../drivers/chromedriver.exe')
+        self.driver=webdriver.Chrome(executable_path='C:/Users\satheesh/PycharmProjects/Selenium/chromedriver.exe')
         self.driver.maximize_window()
         yield
         self.driver.quit()
