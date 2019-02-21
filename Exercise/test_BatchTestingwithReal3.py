@@ -25,5 +25,5 @@ class TestCase():
 
     def test_VerifyYahooTitle(self,test_setUp):
         self.driver.get('https://in.yahoo.com')
-        #self.assertEqual('Yahooo',self.driver.title)
+        self.assertEqual('Yahooo',self.driver.title)
     
